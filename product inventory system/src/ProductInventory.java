@@ -3,8 +3,8 @@ import java.util.*;
 public class ProductInventory {
   
  
-	 String T_name;
-     int P_Id;
+	    String T_name;
+        int P_Id;
         String P_Name;
         String P_Description;
         String P_Quantity;
@@ -32,6 +32,8 @@ public class ProductInventory {
             System.out.println("Enter the price:");
             P_price=scan.nextInt();
            
+            System.out.println("Details of the product");
+            System.out.println("-----------------------");
             System.out.println(" Product name:"+ P_Name);
             System.out.println(" About the product:"+ P_Description);
             System.out.println(" Available stock:"+ P_Quantity);
@@ -39,6 +41,7 @@ public class ProductInventory {
             System.out.println(" Price:"+P_price);
 
         }
+      
 
  
 }
