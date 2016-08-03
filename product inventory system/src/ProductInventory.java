@@ -9,6 +9,7 @@ public class ProductInventory {
         String P_Description;
         String P_Quantity;
         int P_price;
+        int Exp_date;
        
         public static void main(String[] args){
             new ProductInventory().Getdetails();
